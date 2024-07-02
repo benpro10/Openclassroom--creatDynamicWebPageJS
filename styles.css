@@ -37,9 +37,16 @@ main {
 	padding: 8px;
 	min-width: 300px;
 	min-height: 400px;
+	display: flex;
+	flex-direction: column;
 }
 .filtres h3 {
 	text-align: center;
+}
+.filtres button {
+	border-radius: 10px;
+	border: solid 1px;
+	cursor: pointer;
 }
 
 .fiches {
